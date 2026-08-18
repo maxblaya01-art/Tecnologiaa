@@ -1,0 +1,20 @@
+TECNOLOGIA STORE - APK PELO GITHUB
+
+1) Crie um repositório no GitHub.
+2) Extraia este pacote.
+3) Envie TODOS os arquivos, inclusive a pasta .github.
+4) Faça Commit.
+5) Abra Actions.
+6) Entre em "🚀 Gerar APK Android".
+7) Toque em "Run workflow".
+8) Aguarde o ✓ verde.
+9) Abra a execução.
+10) Em Artifacts, baixe "TecnologiaStore-APK".
+
+ESTRUTURA OBRIGATÓRIA:
+.github/workflows/build-apk.yml
+buildozer.spec
+main.py
+.gitignore
+
+Se .github não aparecer no upload do celular, use GitHub Codespaces/Git para enviar a pasta.
